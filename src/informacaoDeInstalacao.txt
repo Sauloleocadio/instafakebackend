@@ -1,0 +1,33 @@
+------------------------------------
+ /* Instalação de depêndencias */
+------------------------------------
+ - yarn add express
+ - yarn add nodemon -D
+ - yarn add muter
+ - yarn add sharp
+ - yarn add cors
+ - yarn add socket.io
+
+------------------------------------
+ /* Informações importantes */
+------------------------------------
+
+ - Get = buscar uma informação via url
+ - Post = cadastrar uma informação 
+ - Put = editar informação
+ - Delete = deletar informação
+
+
+ - midlewares = Um interceptador de chamada de requisições /
+                uma função que retorna um REQ / res
+
+
+------------------------------------
+ /* Configuração  de servidor */
+------------------------------------
+ arquivos package.json
+   "scripts":{
+    "dev": "nodemon src/index.js"
+  }
+
+
